@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leetcode Metric</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Contain heading , User Data , Stats -->
+
+        <h1>Leetcode Stats</h1>
+
+        <div class="user-container">
+            <p>Enter Your Username</p>
+            <div class="user-input-container">    
+                <input type="text" placeholder="Enter your username here" id="user-input">
+                <button id="search-btn">Search</button>
+            </div>
+        </div>
+
+        <div class="stats-container">
+            <div class="progress">
+                <div class="progress-item">
+                    <div class="easy-progress circle">
+                        <span id="easy-level"></span>
+                        Easy
+                    </div>
+                </div>
+
+                <div class="progress-item">
+                    <div class="medium-progress circle">
+                        <span id="medium-level"></span>
+                        Medium
+                    </div>
+                </div>
+
+
+                <div class="progress-item">
+                    <div class="hard-progress circle">
+                        <span id="hard-level"></span>
+                        Hard
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="stats-card">
+                <!-- directly populate from js code -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
